@@ -46,7 +46,7 @@ public class RabbitConfig {
     public Map<String, Class<?>> customClassMapping(){
         Map<String, Class<?>> idClassMapping = new HashMap<>();
         idClassMapping.put("ClientApprovedEvent", ClientApprovedEvent.class);
-        idClassMapping.put("CreatedManagerEvent", CreatedManagerEvent.class);
+        idClassMapping.put("CreatedManagerEmailEvent", CreatedManagerEvent.class);
         idClassMapping.put("ClientRejectedEvent", ClientRejectedEvent.class);
         idClassMapping.put("CreateClientFailEvent", CreateClientFailEvent.class);
         
